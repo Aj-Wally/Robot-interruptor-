@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encendido y Apagado</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="toggle"><!--Contenedor principal-->
+        <input type="checkbox" id="btn"> <!--Este checkbox funcionará como el control del interruptor-->
+        <label for="btn"><!--Esta etiqueta se asociará al checkbox-->
+            <span class="track"> <!--pista del interruptor-->
+                <span class="track-top"><!--Parte superior de la pista-->
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                </span>
+                <span class="track-bot"><!--Parte inferior de la pista-->
+                    <span></span><span></span><span></span><span></span><span></span>
+                    <span></span><span></span><span></span><span></span><span></span>
+                </span>
+            </span>
+            <span class="thumb"></span><!--se moverá al activar el interruptor-->
+        </label>
+        <div class="lights"><!--Luces del interruptor-->
+            <span class="light-off"></span><!--Luz que representa el estado de apgado-->
+            <span class="light-on"></span><!--Luz que representa el estado de encendido-->
+        </div>
+    </div>
+</body>
+
+</html>
